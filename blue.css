@@ -1,0 +1,15 @@
+:root{
+	--mainColor:#15202B;
+	--secondaryColor:#192734;
+	--borderColor:#164D56;
+	--mainText:#fff;
+	--secondaryText:#ccc;
+	--themeDotBorder:#FFF;
+	--previewBg:rgb(25, 39, 52, 0.8);
+	--previewShadow:#111921;
+	--buttonColor:#17a2b8;
+}
+
+.greeting-wrapper{
+	text-shadow: 4px 4px 0 transparent, 8px 8px 2px rgba(255, 255, 255, 0.1);
+}

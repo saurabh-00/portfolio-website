@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurabh Negi</title>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link id="theme-style" rel="stylesheet" href="">
+</head>
+
+<body>
+
+    <section id="home" class="s1">
+        <div class="main-container">
+            <div class="greeting-wrapper">
+                <h1>Hello World!<h1>I'm Saurabh Negi</h1>
+                </h1>
+            </div>
+            <div class="intro-wrapper">
+                <div class="nav-wrapper">
+                    <div class="dots-wrapper">
+                        <a href="#home">
+                            <div id="dot-1" class="browse-dot" title="Home"></div>
+                        </a>
+                        <a href="#about">
+                            <div id="dot-2" class="browse-dot" title="About Me"></div>
+                        </a>
+                        <a href="#projects">
+                            <div id="dot-3" class="browse-dot" title="Projects"></div>
+                        </a>
+                    </div>
+                    <ul id="navigation">
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="left-column">
+                    <img id="profile_pic" src="img/profile.jpg" alt="profile pic">
+                    <h5>Personalize Theme</h5>
+                    <div id="theme-options-wrapper">
+                        <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                        <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                        <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                        <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+                    </div>
+                </div>
+                <div class="right-column">
+                    <div id="preview-shadow">
+                        <div id="preview">
+                            <h4>
+                                <p>I'm a self-taught Web Developer and I love building Websites.</p>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="s2">
+        <div class="main-container">
+            <div class="about-wrapper">
+                <h4>About Me</h4>
+                <p>I'm 22 years old from Uttarakhand state of India. With no CS degree, just hardwork and passion
+                    towards Web Development, I try to keep on learning, upskill, and acquire the skills
+                    that can shape me as a valued professional in this field.</p>
+                <p>I have passion for Web Development. I love building Websites and Web Apps and keep things as simple
+                    as possible and yet effective. I'm a developer so I know how to create a website that run across
+                    different devices.</p>
+                <p>I am looking for an opportunity as an entry-level developer in a company.</p>
+                <hr>
+                <h4>Skills</h4>
+                <div id="skills">
+                    <ul class="ul-1">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>React.js</li>
+                        <li>Git & Github</li>
+                    </ul>
+                    <ul class="ul-2">
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>MongoDB</li>
+                        <li>Mongoose</li>
+                        <li>npm</li>
+                    </ul>
+                    <p>**Currently learning GraphQL, Typescript and Data Structures & Algorithms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="s1">
+        <div class="main-container">
+            <h3>Projects</h3>
+            <div class="post-wrapper">
+                <div class="slide">
+                    <div class="content">
+                        <p>A Simple Quote-Generator which allows you to tweet those quotes too.</p>
+                        <a href="https://github.com/saurabh-00/Quote-Generator" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://saurabh-00.github.io/Quote-Generator/" target="_blank">Visit</a>
+                    </div>
+                    <img src="projects-img/quote.png" alt="quote-generator">
+                </div>
+                <div class="slide">
+                    <div class="content">
+                        <p>A Music Player with a few songs.</p>
+                        <a href="https://github.com/saurabh-00/Music-Player" 
+                        target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://saurabh-00.github.io/Music-Player/" 
+                        target="_blank">Visit</a>
+                    </div>
+                    <img src="projects-img/music.png" alt="quote-generator">
+                </div>
+                <div class="slide">
+                    <div class="content">
+                        <p>A Real Time Chat App made with node.js, express.js and socket.io.</p>
+                        <a href="https://github.com/saurabh-00/Real-Time-Chat-App" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://nodepress-chat-app.herokuapp.com/" 
+                        target="_blank">Visit</a>
+                    </div>
+                    <img src="projects-img/chat.png" alt="quote-generator">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="s2">
+        <div class="main-container">
+            <h3>Get In Touch</h3>
+            <form method="POST" data-netlify="true" id="contact-form">
+                <label>Name</label>
+                <input class="input-field" type="text" name="name">
+                <label>email</label>
+                <input class="input-field" type="email" name="email">
+                <label>Message</label>
+                <textarea class="input-field" name="message" placeholder="Your message here..."></textarea>
+                <div data-netlify-recaptcha="true"></div>
+                <input id="submit-btn" type="Submit" value="Send">
+            </form>
+        </div>
+    </section>
+
+    <footer class="s1">
+        <div class="main-container">
+            <h6>Connect With Me:</h6>
+            <div class="social-links">
+                <a href="https://github.com/saurabh-00" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/saurabh-negi-81579b187/" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://twitter.com/SaurabhNegiISCO" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/didgeridoo_00/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
